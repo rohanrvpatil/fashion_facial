@@ -40,9 +40,9 @@ We load the pretrained VGG16 model and define the number of positional and binar
 *[1,5] represents epoch 1 and 5 minibatches done.*
 
 ### 9. Challenges faced:
-•	No loss was appearing while training (NaN was being outputted): Solved this by adding gradient clipping
-•	High loss values were appearing: Fixed it by scaling binary, positional characteristics using MinMaxScaler()
-•	Loss values were moving up and down and not decreasing gradually: Decreased learning rate, added weight decay and used Adam optimizer
+*	No loss was appearing while training (NaN was being outputted): Solved this by adding gradient clipping
+*	High loss values were appearing: Fixed it by scaling binary, positional characteristics using MinMaxScaler()
+*	Loss values were moving up and down and not decreasing gradually: Decreased learning rate, added weight decay and used Adam optimizer
 
 ### 10. Further steps:
 35 hours required by VGG16 to complete one epoch
@@ -66,16 +66,24 @@ A function is defined to find the accuracy of classification of the VGG16 model 
 
 ## Instructions to run project
 ### 1. Create a New Conda Environment in Anaconda/Miniconda:
+```
 conda create --name myenv
+```
 
 ### 2. Activate the Conda Environment:
+```
 conda activate myenv
+```
 
 ### 3. Install Packages from requirements.txt:
+```
 pip install -r requirements.txt
+```
 
 ### 4. Start Jupyter Notebook:
+```
 jupyter notebook
+```
 
 After running the command, a browser window should automatically open with the Jupyter Notebook dashboard.
 If not, you can access it by opening a web browser and navigating to (http://localhost:8888). Click on the fashion_facial.ipynb file to open it.
