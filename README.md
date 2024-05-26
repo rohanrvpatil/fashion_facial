@@ -56,12 +56,12 @@ The fine-tuned VGG16 model is loaded. The new unseen celebrity image is preproce
 A function is defined to find the accuracy of classification of the VGG16 model using the test loader.
 
 ### 13. Suggestions for Potential Improvements
-•	Using data augmentation to improve model generalization.
-•	Trying different pretrained models to check performance
+* Using data augmentation to improve model generalization.
+* Trying different pretrained models to check performance
 
 ### 14. References
-•	CelebA Dataset: (https://www.kaggle.com/datasets/jessicali9530/celeba-dataset)
-•	Fashion MNIST Dataset: (https://www.kaggle.com/datasets/zalando-research/fashionmnist)
+* CelebA Dataset: (https://www.kaggle.com/datasets/jessicali9530/celeba-dataset)
+* Fashion MNIST Dataset: (https://www.kaggle.com/datasets/zalando-research/fashionmnist)
 
 
 ## Instructions to run project
