@@ -40,6 +40,7 @@ We save the celeba_merged dataframe to a csv. We then define a class for initial
 We load the pretrained VGG16 model and define the number of positional and binary characteristics. We run the training process for 1 epoch which consists of around 6331 minibatches when batch size is considered to be 32. One minibatch was taking around 20s, so the total time for 1 epoch was coming around 35 hours.
 
 ![Screenshot 2024-05-26 030911](https://github.com/rohanrvpatil/fashion_facial/assets/42604817/9ef100fa-cf64-4f9d-b631-fba99ea67de0)
+
 *[1,5] represents epoch 1 and 5 minibatches done.*
 
 ### 9. Challenges faced:
