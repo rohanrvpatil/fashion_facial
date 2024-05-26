@@ -14,15 +14,18 @@ All Fashion MNIST categories (for example -Trouser, Pullover, Dress, Coat) are s
 
 ### 5. Defining criteria for matchmaking:
 Created a function to define various style categories (Glamorous, Sunny Chic etc) based on binary characteristics and Gender in celeba_merged dataframe. Ran the function to apply style category to each image.
+
 ![Screenshot 2024-05-26 165023](https://github.com/rohanrvpatil/fashion_facial/assets/42604817/927087f5-9e2c-4a1b-b3b5-1b13a0b539df)
 
 
 Defined mappings from each style category to Fashion MNIST labels
+
 ![Screenshot 2024-05-26 165008](https://github.com/rohanrvpatil/fashion_facial/assets/42604817/ef095ce1-813b-485d-bf2c-f156850cd68d)
 
 
 ### 6. Displaying the recommendations:
-Created 2 functions to display the celebrity image alongwith image_id and the recommended style category and fashion items. 
+Created 2 functions to display the celebrity image alongwith image_id and the recommended style category and fashion items.
+
 ![Screenshot 2024-05-26 165316](https://github.com/rohanrvpatil/fashion_facial/assets/42604817/0511662a-b472-4872-99e9-f3c788a72eab)
 
 Now for the celebrities present in the celebrity dataset we are getting recommendations with the help of style categories set by us.
