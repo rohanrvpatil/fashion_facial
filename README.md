@@ -1,7 +1,7 @@
 ## Fine-Tuning VGG16 Model on CelebA Dataset and Fashion MNIST Recommendations
 
 ### 1. Introduction
-This report outlines the process of fine-tuning a VGG16 model on the CelebA dataset to predict positional and binary characteristics of celebrity images. Additionally, it describes how Fashion MNIST images were recommended based on the style category of the celebrity images.
+This readme outlines the process of fine-tuning a VGG16 model on the CelebA dataset to predict positional and binary characteristics of celebrity images. Additionally, it describes how Fashion MNIST images were recommended based on the style category of the celebrity images.
 
 ### 2. Packages and reading data
 Necessary packages were imported and all CSVs in the CelebA dataset were read and stored in separate variables. All CSVs were then merged on image_id and stored in celeba_merged dataframe.
